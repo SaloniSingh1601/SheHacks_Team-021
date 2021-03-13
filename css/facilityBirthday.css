@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+#select{
+	font-family: lobster;
+	font-size: 30px;
+}
+body{
+	background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+	background-repeat: no-repeat;
+	position: center;
+	background-size: cover;
+}
+.price{
+	font-family: lobster;
+	text-underline-position: right;
+
+}
+.row{
+  
+  display: flex;
+
+}
+.column{
+
+  padding: 5px;
+  flex: 33.33%
+}
+#name{
+	font-family: lobster;
+	font-size: 20px;
+}
+#desc{
+	font-family: lobster;
+}
+.column button
+{
+	  font-family: lobster;
+
+	  border: none;
+	  outline: 0;
+	  padding: 12px;
+	  color: white;
+	  background-color: #000;
+	  text-align: center;
+	  cursor: pointer;
+	  width: 100%;
+	  font-size: 18px;
+}
