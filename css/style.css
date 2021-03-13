@@ -1191,4 +1191,11 @@ a.color1:hover {
   background-color:salmon;
   color:black;
 }
+.btn{
+  background:whitesmoke;
+  color:black;
+  border: none;
+  border-radius: 35%;
+  padding:12px 28px;
 
+}
