@@ -935,3 +935,259 @@ a.color1:hover {
     margin-top: -58px !important;
   }
 }
+*{
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+
+.dropdown{
+  display: inline-block;
+  float: left;
+}
+.dropdown button{
+  border:none;
+  padding:8px 16px;
+  background-color: white;
+  color:black;
+  transition: .3s;
+}
+.dropdown button:hover{
+  background-color: black;
+  color: white;
+}
+.dropdown div{
+  background-color: #fff;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+  visibility: hidden;
+  position: absolute;
+  min-width:100%;
+}
+.dropdown:hover div{
+  visibility: visible;
+  position: relative;
+}
+.dropdown div a{
+  display:block;
+  text-decoration: none;
+  padding:8px;
+
+}
+.dropdown div a:hover{
+  background-color:palevioletred;
+  color:white;
+}
+.dropdown_1{
+  display: inline-block;
+  float: right;
+}
+.dropdown_1 button{
+  border-radius: 5%;
+  border:none;
+  padding:8px 16px;
+  background-color: white;
+  color:black;
+  transition: .3s;
+}
+.dropdown_1 button:hover{
+  background-color: black;
+  color: white;
+}
+.dropdown_1 div{
+  background-color: #fff;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+  visibility: hidden;
+  position: absolute;
+  min-width:100%;
+}
+.dropdown_1:hover div{
+  visibility: visible;
+  position: relative;
+}
+.dropdown_1 div a{
+  display:block;
+  text-decoration: none;
+  padding:8px;
+
+}
+.dropdown_1 div a:hover{
+  background-color:palevioletred;
+  color:white;
+}
+.dropdown_2{
+  display: inline-block;
+  float: center;
+}
+.dropdown_2 button{
+  border-radius: 5%;
+  border:none;
+  padding:8px 16px;
+  background-color: white;
+  color:black;
+  transition: .3s;
+}
+.dropdown_2 button:hover{
+  background-color:black;
+  color: white;
+}
+
+#plan{
+  margin-left: 150px;
+}
+.dropdown_wed{
+  display: inline-block;
+  float: left;
+}
+.dropdown_wed button{
+  border:none;
+  padding:8px 16px;
+  background-color: white;
+  color:black;
+  transition: .3s;
+}
+.dropdown_wed button:hover{
+  background-color: black;
+  color: white;
+}
+.dropdown_wed div{
+  background-color: #fff;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+  visibility: hidden;
+  position: absolute;
+  min-width:100%;
+}
+.dropdown_wed:hover div{
+  visibility: visible;
+  position: relative;
+}
+.dropdown_wed div a{
+  display:block;
+  text-decoration: none;
+  padding:8px;
+
+}
+.dropdown_wed div a:hover{
+  background-color:#e8f097;
+  color:black;
+}
+
+
+
+.dropdown_1_wed{
+  display: inline-block;
+  float: right;
+}
+.dropdown_1_wed button{
+  border-radius: 5%;
+  border:none;
+  padding:8px 16px;
+  background-color: white;
+  color:black;
+  transition: .3s;
+}
+.dropdown_1_wed button:hover{
+  background-color: black;
+  color: white;
+}
+.dropdown_1_wed div{
+  background-color: #fff;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+  visibility: hidden;
+  position: absolute;
+  min-width:100%;
+}
+.dropdown_1_wed:hover div{
+  visibility: visible;
+  position: relative;
+}
+.dropdown_1_wed div a{
+  display:block;
+  text-decoration: none;
+  padding:8px;
+
+}
+.dropdown_1_wed div a:hover{
+  background-color:#e8f097;
+  color:black;
+}
+
+
+.dropdown_val{
+  display: inline-block;
+  float: left;
+}
+.dropdown_val button{
+  border:none;
+  padding:8px 16px;
+  background-color: white;
+  color:black;
+  transition: .3s;
+}
+.dropdown_val button:hover{
+  background-color: black;
+  color: white;
+}
+.dropdown_val div{
+  background-color: #fff;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+  visibility: hidden;
+  position: absolute;
+  min-width:100%;
+}
+.dropdown_val:hover div{
+  visibility: visible;
+  position: relative;
+}
+.dropdown_val div a{
+  display:block;
+  text-decoration: none;
+  padding:8px;
+
+}
+.dropdown_val div a:hover{
+  background-color:salmon;
+  color:black;
+}
+.dropdown_1_val{
+  display: inline-block;
+  float: right;
+}
+.dropdown_1_val button{
+  border-radius: 5%;
+  border:none;
+  padding:8px 16px;
+  background-color: white;
+  color:black;
+  transition: .3s;
+}
+.dropdown_1_val button:hover{
+  background-color: black;
+  color: white;
+}
+.dropdown_1_val div{
+  background-color: #fff;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+  visibility: hidden;
+  position: absolute;
+  min-width:100%;
+}
+.dropdown_1_val:hover div{
+  visibility: visible;
+  position: relative;
+}
+.dropdown_1_val div a{
+  display:block;
+  text-decoration: none;
+  padding:8px;
+
+}
+.dropdown_1_val div a:hover{
+  background-color:salmon;
+  color:black;
+}
+
